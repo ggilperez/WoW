@@ -31,9 +31,9 @@
             ["macroFontSize"] = 16,
         },
         ["bar2"] = {
-            ["buttonSize"] = 57,
-            ["buttonSpacing"] = -2,
-            ["buttons"] = 3,
+            ["buttonSize"] = 53,
+            ["buttonSpacing"] = 0,
+            ["buttons"] = 4,
             ["buttonsPerRow"] = 1,
             ["countFont"] = "Friz Quadrata TT",
             ["countFontOutline"] = "OUTLINE",
@@ -49,6 +49,8 @@
             ["macroFontSize"] = 16,
         },
         ["bar3"] = {
+            ["buttonSize"] = 40,
+            ["buttonSpacing"] = 0,
             ["buttons"] = 12,
             ["buttonsPerRow"] = 1,
             ["countFont"] = "Friz Quadrata TT",
@@ -65,6 +67,9 @@
             ["point"] = "TOPRIGHT",
         },
         ["bar4"] = {
+            ["backdrop"] = false,
+            ["buttonSize"] = 40,
+            ["buttonSpacing"] = 0,
             ["countFont"] = "Friz Quadrata TT",
             ["countFontOutline"] = "OUTLINE",
             ["countFontSize"] = 16,
@@ -96,9 +101,9 @@
             ["visibility"] = "[petbattle] hide; show",
         },
         ["bar6"] = {
-            ["buttonSize"] = 57,
-            ["buttonSpacing"] = -2,
-            ["buttons"] = 3,
+            ["buttonSize"] = 53,
+            ["buttonSpacing"] = 0,
+            ["buttons"] = 4,
             ["buttonsPerRow"] = 1,
             ["countFont"] = "Friz Quadrata TT",
             ["countFontOutline"] = "OUTLINE",
@@ -114,9 +119,14 @@
             ["macroFontSize"] = 16,
         },
         ["bar7"] = {
+            ["buttonSize"] = 50,
+            ["buttonSpacing"] = 0,
+            ["buttons"] = 8,
+            ["buttonsPerRow"] = 8,
             ["countFont"] = "Friz Quadrata TT",
             ["countFontOutline"] = "OUTLINE",
             ["countFontSize"] = 16,
+            ["enabled"] = true,
             ["hotkeyFont"] = "Friz Quadrata TT",
             ["hotkeyFontOutline"] = "OUTLINE",
             ["hotkeyFontSize"] = 16,
@@ -125,6 +135,7 @@
             ["macroFont"] = "Friz Quadrata TT",
             ["macroFontOutline"] = "OUTLINE",
             ["macroFontSize"] = 16,
+            ["visibility"] = "[petbattle] hide; show",
         },
         ["bar8"] = {
             ["countFont"] = "Friz Quadrata TT",
@@ -303,35 +314,35 @@
         },
     },
     ["movers"] = {
-        ["AlertFrameMover"] = "BOTTOM,UIParent,BOTTOM,0,363",
-        ["AltPowerBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,20,214",
+        ["AddonCompartmentMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-178,-158",
+        ["AlertFrameMover"] = "BOTTOM,UIParent,BOTTOM,0,380",
+        ["AltPowerBarMover"] = "BOTTOM,UIParent,BOTTOM,0,158",
         ["BNETMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,398,-1",
         ["BagsMover"] = "BOTTOM,ElvUIParent,BOTTOM,339,0",
-        ["BelowMinimapContainerMover"] = 
-"BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-523,247",
+        ["BelowMinimapContainerMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-523,247",
         ["BossButton"] = "BOTTOM,ElvUIParent,BOTTOM,116,398",
         ["BossHeaderMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,532,-295",
         ["BuffsMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-177,1",
-        ["ClassBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,25,203",
+        ["ClassBarMover"] = "BOTTOM,UIParent,BOTTOM,0,158",
         ["DebuffsMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-179,-95",
-        ["ElvAB_1"] = "BOTTOM,ElvUIParent,BOTTOM,24,271",
-        ["ElvAB_2"] = "BOTTOM,ElvUIParent,BOTTOM,-202,203",
-        ["ElvAB_3"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-4,-390",
-        ["ElvAB_4"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-34,-390",
-        ["ElvAB_5"] = "BOTTOM,ElvUIParent,BOTTOM,24,320",
-        ["ElvAB_6"] = "BOTTOM,ElvUIParent,BOTTOM,250,202",
-        ["ElvUF_FocusCastbarMover"] = 
-"TOPLEFT,ElvUIParent,TOPLEFT,529,-66",
+        ["ElvAB_1"] = "BOTTOM,ElvUIParent,BOTTOM,0,223",
+        ["ElvAB_2"] = "BOTTOM,ElvUIParent,BOTTOM,-224,160",
+        ["ElvAB_3"] = "TOPRIGHT,UIParent,TOPRIGHT,-4,-332",
+        ["ElvAB_4"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-43,-332",
+        ["ElvAB_5"] = "BOTTOM,ElvUIParent,BOTTOM,0,271",
+        ["ElvAB_6"] = "BOTTOM,ElvUIParent,BOTTOM,224,159",
+        ["ElvAB_7"] = "BOTTOM,ElvUIParent,BOTTOM,0,319",
+        ["ElvUF_FocusCastbarMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,529,-66",
         ["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,0,726",
         ["ElvUF_PetCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,94",
-        ["ElvUF_PetMover"] = "BOTTOM,ElvUIParent,BOTTOM,198,203",
-        ["ElvUF_PlayerCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,25,154",
-        ["ElvUF_PlayerMover"] = "BOTTOM,ElvUIParent,BOTTOM,24,203",
+        ["ElvUF_PetMover"] = "BOTTOM,ElvUIParent,BOTTOM,175,156",
+        ["ElvUF_PlayerCastbarMover"] = "BOTTOM,UIParent,BOTTOM,0,107",
+        ["ElvUF_PlayerMover"] = "BOTTOM,UIParent,BOTTOM,0,156",
         ["ElvUF_Raid1Mover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,427",
-        ["ElvUF_Raid3Mover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,432",
+        ["ElvUF_Raid2Mover"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,4,258",
+        ["ElvUF_Raid3Mover"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,4,261",
         ["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,736",
-        ["ElvUF_TargetCastbarMover"] = 
-"TOPLEFT,ElvUIParent,TOPLEFT,397,-227",
+        ["ElvUF_TargetCastbarMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,397,-227",
         ["ElvUF_TargetMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,397,-159",
         ["ElvUF_TargetTargetMover"] = "TOP,ElvUIParent,TOP,-201,-159",
         ["GMMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,398,49",
@@ -340,11 +351,10 @@
         ["LootFrameMover"] = "TOP,ElvUIParent,TOP,-5,-469",
         ["LossControlMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,456",
         ["MicrobarMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,1,-177",
-        ["MinimapMover"] = "TOPRIGHT,UIParent,TOPRIGHT,0,0",
+        ["MinimapMover"] = "TOPRIGHT,UIParent,TOPRIGHT,0,41",
         ["MirrorTimer1Mover"] = "BOTTOM,UIParent,BOTTOM,0,370",
         ["MirrorTimer2Mover"] = "TOPLEFT,ElvUIParent,TOPLEFT,-1,-361",
-        ["ObjectiveFrameMover"] = 
-"TOPRIGHT,ElvUIParent,TOPRIGHT,-134,-236",
+        ["ObjectiveFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-134,-236",
         ["PetAB"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,1,308",
         ["RightChatMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,1,0",
         ["ShiftAB"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,849",
@@ -362,6 +372,9 @@
         ["statusbar"] = "ElvUI Blank",
         ["units"] = {
             ["ENEMY_NPC"] = {
+                ["debuffs"] = {
+                    ["attachTo"] = "BUFFS",
+                },
                 ["eliteIcon"] = {
                     ["enable"] = true,
                 },
@@ -369,8 +382,8 @@
                     ["height"] = 30,
                     ["text"] = {
                         ["fontSize"] = 20,
-                        ["format"] = 
-"[health:percent][health:current:shortvalue]",
+                        ["format"] = "[health:percent]   [health:current:shortvalue]",
+                        ["xOffset"] = 30,
                         ["yOffset"] = -7,
                     },
                 },
@@ -398,6 +411,11 @@
                 ["visibility"] = {
                     ["showAlways"] = true,
                 },
+            },
+            ["TARGET"] = {
+                ["arrowScale"] = 1,
+                ["arrowSpacing"] = 0,
+                ["glowStyle"] = "style5",
             },
         },
     },
@@ -705,6 +723,17 @@
                     },
                 },
                 ["customTexts"] = {
+                    ["Total Health"] = {
+                        ["attachTextTo"] = "Health",
+                        ["enable"] = true,
+                        ["font"] = "Friz Quadrata TT",
+                        ["fontOutline"] = "NONE",
+                        ["justifyH"] = "RIGHT",
+                        ["size"] = 25,
+                        ["text_format"] = "[health:current:shortvalue]",
+                        ["xOffset"] = 0,
+                        ["yOffset"] = 0,
+                    },
                     ["health#percent"] = {
                         ["attachTextTo"] = "Health",
                         ["enable"] = true,
@@ -746,8 +775,35 @@
                 ["threatStyle"] = "NONE",
                 ["width"] = 400,
             },
-            ["tank"] = {
-                ["enable"] = false,
+            ["raid2"] = {
+                ["customTexts"] = {
+                    ["Grupo"] = {
+                        ["attachTextTo"] = "Health",
+                        ["enable"] = true,
+                        ["font"] = "Friz Quadrata TT",
+                        ["fontOutline"] = "NONE",
+                        ["justifyH"] = "RIGHT",
+                        ["size"] = 12,
+                        ["text_format"] = "[group]",
+                        ["xOffset"] = 0,
+                        ["yOffset"] = 8,
+                    },
+                },
+            },
+            ["raid3"] = {
+                ["customTexts"] = {
+                    ["Grupo"] = {
+                        ["attachTextTo"] = "Health",
+                        ["enable"] = true,
+                        ["font"] = "Friz Quadrata TT",
+                        ["fontOutline"] = "NONE",
+                        ["justifyH"] = "CENTER",
+                        ["size"] = 20,
+                        ["text_format"] = "[Group]asdasdasd",
+                        ["xOffset"] = 0,
+                        ["yOffset"] = 0,
+                    },
+                },
             },
             ["target"] = {
                 ["CombatIcon"] = {
@@ -755,8 +811,7 @@
                 },
                 ["aurabar"] = {
                     ["enable"] = false,
-                    ["priority"] = 
-"Blacklist,blockNoDuration,Personal,RaidDebuffs,PlayerBuffs",
+                    ["priority"] = "Blacklist,blockNoDuration,Personal,RaidDebuffs,PlayerBuffs",
                 },
                 ["buffs"] = {
                     ["anchorPoint"] = "TOPLEFT",
@@ -817,7 +872,7 @@
                 },
                 ["height"] = 68,
                 ["name"] = {
-                    ["text_format"] = "",
+                    ["text_format"] = "[name:long:translit]",
                     ["yOffset"] = 48,
                 },
                 ["orientation"] = "LEFT",
